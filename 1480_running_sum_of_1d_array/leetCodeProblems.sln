@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1480_running_sum_of_1d_array_2", "1480_running_sum_of_1d_array_2\1480_running_sum_of_1d_array_2.csproj", "{E37484DA-28B5-4891-BB59-9F0F60BD1BF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "leetCodeProblems", "leetCodeProblems\leetCodeProblems.csproj", "{E37484DA-28B5-4891-BB59-9F0F60BD1BF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
