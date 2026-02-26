@@ -11,11 +11,9 @@ class  aaah{
         {
             Console.WriteLine(item);
         }
-
-    }
-    
-    
+    } 
 }
+
 public class Solution {
     public int[] RunningSum(int[] nums) {
         int[] sumArray = new int[nums.Length];
