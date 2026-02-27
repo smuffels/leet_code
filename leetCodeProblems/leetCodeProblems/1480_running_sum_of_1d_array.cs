@@ -5,7 +5,7 @@ class  aaah{
     public static void Main()
     {
         int[] testArray = {1,2,3,4};
-        Solution solution = new Solution();
+        SolutionRunningSum solution = new SolutionRunningSum();
         int[] result = solution.RunningSum(testArray);
         foreach (var item in result)
         {
@@ -14,7 +14,7 @@ class  aaah{
     } 
 }
 
-public class Solution {
+public class SolutionRunningSum {
     public int[] RunningSum(int[] nums) {
         int[] sumArray = new int[nums.Length];
         int sum = 0;

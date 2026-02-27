@@ -1,7 +1,7 @@
 namespace _1480_running_sum_of_1d_array_2;
 
 
-public class Solution {
+public class SolutionMaxWealth {
     public int MaximumWealth(int[][] accounts)
     {
         int maxWealth = 0;
