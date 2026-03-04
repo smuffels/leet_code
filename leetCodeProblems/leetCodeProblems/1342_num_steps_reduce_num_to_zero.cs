@@ -1,7 +1,7 @@
 namespace _1480_running_sum_of_1d_array_2;
 
-public class SolutionStepsToZero {
-    
+public class SolutionStepsToZero
+{
     public int NumberOfSteps(int num)
     {
         int steps = 0;
@@ -22,5 +22,4 @@ public class SolutionStepsToZero {
 
         return steps;
     }
-    
 }
