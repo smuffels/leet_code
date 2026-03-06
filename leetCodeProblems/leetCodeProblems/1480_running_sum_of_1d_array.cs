@@ -1,18 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System;
-class  aaah{
-    public static void Main()
-    {
-        int[] testArray = {1,2,3,4};
-        SolutionRunningSum solution = new SolutionRunningSum();
-        int[] result = solution.RunningSum(testArray);
-        foreach (var item in result)
-        {
-            Console.WriteLine(item);
-        }
-    } 
-}
 
 public class SolutionRunningSum {
     public int[] RunningSum(int[] nums) {
