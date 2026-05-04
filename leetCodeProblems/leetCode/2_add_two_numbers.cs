@@ -1,4 +1,4 @@
-namespace _1480_running_sum_of_1d_array_2;
+namespace leetCode;
 
 public class ListNode
 {

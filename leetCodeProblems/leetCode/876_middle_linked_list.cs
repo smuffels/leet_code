@@ -1,7 +1,7 @@
 public class ListNode
 {
-    public int val;
     public ListNode next;
+    public int val;
 
     public ListNode(int val = 0, ListNode next = null)
     {
@@ -15,10 +15,10 @@ public class SolutionMiddleLinkedList2
 {
     public ListNode MiddleNode(ListNode head)
     {
-        ListNode middle = head;
-        ListNode end = head;
+        var middle = head;
+        var end = head;
 
-        while (end!= null  && end.next != null)
+        while (end != null && end.next != null)
         {
             middle = middle.next;
             end = end.next.next;
@@ -33,8 +33,8 @@ public class SolutionMiddleLinkedList1
 {
     public ListNode MiddleNode(ListNode head)
     {
-        int size = 0;
-        ListNode current = head;
+        var size = 0;
+        var current = head;
 
         while (current != null)
         {
@@ -42,13 +42,10 @@ public class SolutionMiddleLinkedList1
             size++;
         }
 
-        int middle = size / 2;
+        var middle = size / 2;
 
         current = head;
-        for (int i = 0; i < middle; i++)
-        {
-            current = current.next;
-        }
+        for (var i = 0; i < middle; i++) current = current.next;
 
         return current;
     }
