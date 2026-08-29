@@ -6,8 +6,8 @@ public class main
 {
     public static void Main()
     {
-        var solution = new q3_array1();
-        var result = solution.FindMaxConsecutiveOnes(new[] { 1, 1, 0, 1, 0 });
+        var solution = new q1_array2();
+        var result = solution.FindErrorNums(new[] { 3, 5, 9, 4, 1, 2, 7, 8, 1 });
         Console.WriteLine(string.Join(",", result));
     }
 }
